@@ -44,7 +44,7 @@ public class ContactsActivity extends AppCompatActivity {
     }
 
     public void getUsers(){
-        String url = "http://10.0.2.2:8000/users";
+        String url = "http://10.0.2.2:8080/users";
         RequestQueue queue = Volley.newRequestQueue(this);
         Map<String, String> params = new HashMap();
         JSONObject parameters = new JSONObject(params);
